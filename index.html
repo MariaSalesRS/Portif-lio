@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio da Maria</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <!-- CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    /* ===== RESET LOCAL (não afeta o site todo) ===== */
+    .timeline-section {
+      background: #ffffff;
+      padding: 10px 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .timeline-section * {
+      box-sizing: border-box;
+    }
+
+    /* ===== CONTAINER ===== */
+    .timeline-section .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    /* ===== linha ===== */
+    .timeline {
+      position: relative;
+    }
+    .timeline::after {
+      content: "";
+      position: absolute;
+      width: 3px;
+      background-color: #d3e5fe;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    /* ===== ITEM ?????===== */
+    .timeline-item {
+      padding: 20px 0;
+      position: relative;
+      width: 50%;
+    }
+    .timeline-item::after {
+      content: "";
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      background-color: #d3e5fe;
+      border-radius: 50%;
+      top: 35px;
+      z-index: 1;
+    }
+
+    /* ===== LADO ESQUERDO ===== */
+    .timeline-item.left {
+      left: 0;
+      padding-right: 40px;
+      text-align: right;
+    }
+    .timeline-item.left::after {
+      right: -7px;
+    }
+    .timeline-item.right {
+      left: 50%;
+      padding-left: 40px;
+      text-align: left;
+    }
+    .timeline-item.right::after {
+      left: -7px;
+    }
+
+    /* ===== BOLINHA ===== */
+    @media (max-width: 768px) {
+      .timeline::after {
+        left: 20px;
+      }
+
+      .timeline-item {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 20px;
+        text-align: left;
+      }
+
+      .timeline-item.left,
+      .timeline-item.right {
+        left: 0;
+      }
+
+      .timeline-item::after {
+        left: 13px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+</style>
+
+<body>
+    <div style="background-color: #d3e5fe; height: 50vh;">
+        <div class="container">
+            <div class="row align-items-center" style="height: 50vh;">
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <div>
+                        <h1>Olá, eu sou Maria<span class="estrela">★</span></h1>
+
+                        <h5>Desenvolvedora Web</h5>
+
+                        <button class ="btn btn-primary" style="border-radius: 20px; background-color: #000000; border-color: #000000";>Download CV</button>
+                        <button class ="btn btn-primary" style="border-radius: 20px; background-color: #000000; border-color: #000000">Projetos</button>
+                    </div>
+                </div>
+
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <img src="fotoo.jpg" alt="" style="width:300px;">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <div style="background-color: #FFFFFF; height: 30vh;">
+        <div class="container h-100">
+
+            <!-- TÍTULO -->
+            
+            <div class=" text-center mt-3">
+                <h1>Tecnologias</h1>
+            </div>
+            
+            <style>
+                i.icon {
+                    font-size: 60px;
+                    color: black;
+                }
+            </style>
+
+            <!-- ÍCONES -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center gap-4 flex-wrap">
+                    <i class=" icon devicon-python-plain"></i>
+                    <i class=" icon devicon-php-plain"></i>
+                    <i class=" icon devicon-mysql-plain"></i>
+                    <i class=" icon devicon-javascript-plain"></i>
+                    <i class=" icon devicon-nodejs-plain"></i>
+                    <i class=" icon devicon-html5-plain"></i>
+                    <i class=" icon devicon-css3-plain"></i>
+                    <i class=" icon devicon-bootstrap-plain"></i>
+                    <i class=" icon devicon-figma-plain"></i>
+                    <i class=" icon devicon-amazonwebservices-plain"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div style="background-color: #F3F3F3; height: 50vh;">
+        <div class="container h-100">
+            <div class=" text-center pt-3">
+                <h1>Sobre mim...</h1>
+                <p>Sou estudante de Engenharia de Software e Biologia, com atuação na área de Tecnologia da Informação, especialmente em Ciência de Dados, Desenvolvimento de Software e Qualidade (QA). Possuo uma formação multidisciplinar que integra tecnologia, dados e ciências biológicas, com foco em soluções eficientes e bem estruturadas.</p>
+                <p>Tenho conhecimentos em programação utilizando Python, JavaScript, PHP e C, além de desenvolvimento web com HTML5, CSS e Bootstrap. Atuo com bancos de dados, incluindo conceitos de modelagem e manipulação de dados, utilizando MySQL e bancos não relacionais (MongoDB). Possuo familiaridade com ambientes Linux e com práticas de versionamento e organização de projetos.</p>
+                <p>Na área de Qualidade de Software, aplico conceitos de testes, análise de requisitos e validação de sistemas, estando em processo de preparação para a certificação CTFL (Certified Tester Foundation Level). Também possuo noções de cloud computing, com contato inicial com serviços da AWS, e utilizo ferramentas de design e prototipação, como Figma, para apoiar a construção de interfaces e fluxos de sistemas.</p>
+                <p>Destaco-me pelo pensamento analítico, organização, aprendizado contínuo e boa comunicação, características que facilitam o trabalho em equipe e a resolução de problemas. Busco oportunidades que permitam aplicar e expandir meus conhecimentos em tecnologia e dados, contribuindo para o desenvolvimento de soluções inovadoras e de impacto.</p>
+           </div>
+        </div>
+    </div>
+
+    <div style="background-color: #FFFFFF; height: 50vh;">
+        <div class="timeline-section">
+            <div class="container h-100">
+                <div class=" text-center pt-3">
+                    <h1>Experiências</h1>
+
+                    <div class="timeline">
+                        <div class="timeline-item left">
+                            <div class="content">
+                                <h3><strong>Estagiária Desenvolvedora Web</strong></h3>
+                                <span><strong>WTR Sistemas • Nov 2025 - Atual</span></strong></span>
+                                <p>Desenvolvimento, manutenção e supervisão de atividades em sites e sistemas web sob demanda, incluindo a orientação de estagiário, com foco em performance, escalabilidade e usabilidade. Atuação direta na manutenção e evolução de sites e sistemas da Confederação da Agricultura e Pecuária do Brasil (CNA), além da criação de interfaces responsivas e otimizadas para diferentes dispositivos e integração de APIs e serviços de terceiros. Uso contínuo de Git para versionamento, colaboração e controle de mudanças em projetos. Manutenção de sistemas modernos com melhorias contínuas em código, segurança e performance.</p>
+                                <div class="tags">   
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="timeline">
+                        <div class="timeline-item right">
+                            <div class="content">
+                                <h3><strong>Estagiária Desenvolvimento</strong></h3>
+                                <span><strong>Mirante Tecnologia • Jun 2025 - Nov 2025</strong></span>
+                                <p>Estagiária de Teste e desenvolvimento para plataformas internas do Quartel General do Exército (QGEx). Minhas atividades incluem o planejamento e execução de testes funcionais, exploratórios, automatizados e de interface, além da análise de requisitos e registro de defeitos. Também colaboro no desenvolvimento de novas funcionalidades utilizando Java e Angular, adquirindo experiência prática em front-end e back-end.</p>
+                                <div class="tags">
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="timeline">
+                        <div class="timeline-item left">
+                            <div class="content">
+                                <h3><strong>Estagiária Ciências de Dados</strong></h3>
+                                    <span><strong>TAREA • Juh 2024 - Abr 2025</strong></span>
+                                    <p>Atuei com Python e R em análise, manipulação e visualização de dados, desenvolvendo pipelines, tratamento e limpeza com Pandas e NumPy, e aplicando machine learning com Scikit-learn e H2O.ai. Participei de projetos de inovação, da exploração de dados à geração de insights, com integração a SQL e MongoDB.</p>
+                                <div class="tags">
+                            </div>
+                        </div>
+                    </div>                         
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div style="background-color: #F3F3F3; height: 50vh;">
+        <div style="margin: 0 50px">
+            <div class="cotnainer h-100">
+                <div class=" text-center pt-3">
+                    <h1>Formação</h1>
+                    <style>
+                        .block{
+                            width: 300px;
+                            padding: 20px;
+                            border-radius: 10px;
+                            background-color: #d3e5fe;
+                        }
+                    </style>
+
+                    <div class="row justify-content-md-center">
+                        <div class="col-6 d-flex justify-content-end">
+                            <div class="block">
+                                <h3><strong>Biologia/ Ciências Biológicas</strong></h3>
+                                <span><strong>Graduação CEUB, 2022 - 2026</strong></span>
+                            </div>                        
+                        </div>
+                        <div class="col-6 d-flex justify-content-start">
+                            <div class="block">
+                                <h3><strong>Engenharia de Software</strong></h3>
+                                <span><strong>Graduação Anhanguera, 2023 - 2026</strong></span>
+                            </div>                        
+                        </div>                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- JS do Bootstrap (com Popper incluso) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
